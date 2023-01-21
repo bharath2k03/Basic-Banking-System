@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Us</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="container">  
+        <form id="contact" onsubmit="myFunction()" method="post">
+          <h3>Login</h3>
+          <h4>Login to transfer money</h4>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input type="password" placeholder="Password">
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" onclick="goto();">Login</button>
+          </fieldset>
+        </form>
+      </div>
+      <script>
+        function myFunction() {
+          window.open("C:/Users/BHARATH.000/Desktop/Landing_Page/js/transactions.html")
+        }
+      </script>
+</body>
+</html>

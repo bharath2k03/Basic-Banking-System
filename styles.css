@@ -1,0 +1,233 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    text-align: center;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+
+
+.demo-wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.demo-bg {
+    opacity: 0.8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.top
+{
+    width: 100%;
+    min-height: 100vh;
+    /* background-image: url(ml.jpg);
+    background-position: center;
+    background-size: cover; */
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+    
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo
+{
+    width: 140px;
+    
+}
+nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+
+}
+
+.btn
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg,#F06292,#554994, #EA047E);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+.content
+{
+    margin-top: 5%;
+    max-width: 100%;
+}
+.content h1
+{
+    text-align: center;
+    font-size: 75px;
+    color: white;
+}
+
+.content h2
+{
+    text-align: center;
+    margin: 10px 0 30px;
+    color: orange;
+    animation-delay: 0.5s;
+    padding-top: 40px;
+}
+.content h2:hover{
+   color: #EA047E;
+}
+.content .btn
+{
+    margin: 0%;
+    padding: 20px 80px;
+    font-size: 16px;
+    animation-delay: 1s;
+    position: absolute;
+    top: 80%;
+    left: 42%;
+}
+.btn:hover
+{
+    border-top-right-radius: 30px;
+    background-image: linear-gradient(45deg,#F06292,red, #EA047E);
+}
+.usd
+{
+    position: absolute;
+    width: 530px;
+    bottom: 0;
+    right: 10%;
+    height: 500px;
+}
+.usd.upw
+{
+    left: 850px;
+    bottom: 50px;
+    animation-delay: 1.5s;
+}
+.upw
+{ 
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+#aboutus {
+    position: relative;
+    background-color: whitesmoke;
+    /* background-image: url(aboutusback.jpg); */
+    /* background-repeat: no-repeat;
+    width: 100%; */
+}
+  
+/* .aboutus-title {
+    font-size: 1.5rem;
+    text-align:calc(233);
+    color: black;
+} */
+  
+.icons {
+    color: black;
+}
+
+.aboutus-box {
+    padding: 10%;
+}
+  
+.gokul-img {
+    padding: 5% 5%;
+    height: 80%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.bharath-img {
+    
+    height: 60%;
+    width: auto;
+    border-radius: 50%;
+    margin-left: -180px;
+   align: center;
+}
+
+.bala-img {
+    padding: 5% 5%;
+    height: 80%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.site-footer{
+    background-color: black;
+    padding: 3%;
+}
+
+.footer-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu-item {
+    list-style: none;
+}
+
+.footer-menu-link {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.brand-text {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.site-footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer-p {
+    color: white;
+    display: block;
+    text-align: center;
+    /* align-items: center; */
+    /* float: right; */
+}
